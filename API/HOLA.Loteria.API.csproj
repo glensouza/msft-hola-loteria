@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AzureFunctionsVersion>v4</AzureFunctionsVersion>
+    <UserSecretsId>117fda02-7315-45bc-bad6-202fb1587e1c</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/66effa16-8b4b-4047-b8e1-d390ceddd4a5/resourceGroups/MSFT-HOLA-Loteria/providers/microsoft.insights/components/msft-hola-loteria-api</ApplicationInsightsResourceId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.WorkerService" Version="2.15.0" />
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.SignalRService" Version="1.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="host.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="local.settings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+</Project>
