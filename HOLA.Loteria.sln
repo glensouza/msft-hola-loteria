@@ -14,7 +14,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFiles", "SolutionFi
 		.github\workflows\cicd-web.yml = .github\workflows\cicd-web.yml
 		.github\workflows\cicd-api.yml = .github\workflows\cicd-api.yml
 		README.md = README.md
-		..\..\Users\glens\AppData\Roaming\Microsoft\UserSecrets\117fda02-7315-45bc-bad6-202fb1587e1c\secrets.json = ..\..\Users\glens\AppData\Roaming\Microsoft\UserSecrets\117fda02-7315-45bc-bad6-202fb1587e1c\secrets.json
 	EndProjectSection
 EndProject
 Global
